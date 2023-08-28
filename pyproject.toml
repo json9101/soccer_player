@@ -1,6 +1,6 @@
 [project]
 name = "soccer_player"
-version = "0.1.0"
+version = "0.2.1"
 description = "demonstrates players' records"
 authors = [
     {name = "junsungs950", email = "junsungs950@gmail.com"},
