@@ -1,6 +1,6 @@
 [project]
-name = "soccer_player"
-version = "0.1.0"
+name = "soccer-player"
+version = "0.2.1"
 description = "demonstrates players' records"
 authors = [
     {name = "junsungs950", email = "junsungs950@gmail.com"},
@@ -13,3 +13,8 @@ license = {text = "MIT"}
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.0",
+]
